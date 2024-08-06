@@ -156,10 +156,13 @@ html {
 
   #resultado{
     font-size: 30px;
+    text-align: center;
+    margin-top: 1%;
   }
 
   #imc{
     margin-top: -1%;
+    text-align: center;
   }
 
   .form-control {
