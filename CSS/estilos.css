@@ -157,7 +157,11 @@ html {
   #resultado{
     font-size: 30px;
   }
-  
+
+  #imc{
+    margin-top: -1%;
+  }
+
   .form-control {
     display: block;
     width: 100%;
