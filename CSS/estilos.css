@@ -153,6 +153,10 @@ html {
     margin-bottom: 5px;
     font-weight: bold;
   }
+
+  #resultado{
+    font-size: 30px;
+  }
   
   .form-control {
     display: block;
