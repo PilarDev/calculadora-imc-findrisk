@@ -1,0 +1,41 @@
+<html lang="es"><head>
+	<title>Calculadora Índice Masa Corporal (IMC)</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="CSS/estilos.css">
+	<link href='https://fonts.googleapis.com/css?family=Yanone Kaffeesatz' rel='stylesheet'>
+	<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+  }
+</script>
+</head>
+<body>
+<div class="container">
+		<div class="col-lg col-xs">
+			<div class="form-group">
+				<label>Peso (kg)</label>
+				<input type="number" id="Peso" class="form-control">
+			</div>
+            <div class="form-group">
+				<label>Altura (cm)</label>
+				<input type="number" id="Altura" class="form-control">
+			</div>
+			<div class="form-group">
+				<button type="button" class="btn btn-success" onclick="calcular()";">Calcular</button>
+			</div>
+		</div>
+	</div>
+	<div class="row" id="resultado" style="display: none;">
+		<div class="col-lg col-xs">
+			<div class="form-group">
+				<label>IMC</label>
+				<h4 id="imc" style="color:#0087CB;">resultado</h4>
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="JS/funciones.js"></script>
+<script type="text/javascript" src="JS/jquery.js"></script>
+
+
+</body></html>
